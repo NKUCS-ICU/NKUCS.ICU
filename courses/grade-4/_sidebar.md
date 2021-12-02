@@ -4,5 +4,5 @@
     - [大二课程](/courses/grade-2/)
     - [大三课程](/courses/grade-3/)
     - [大四课程](/courses/grade-4/)
-        - [ICE4611 毕业设计(论文)](/courses/grade-4/ICE4611)
+        - [COSC0020 毕业论文](/courses/grade-4/COSC0020)
 - [最新评论](/recent)
