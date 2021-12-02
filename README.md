@@ -7,11 +7,17 @@
 ## 近期更新页面
 
 2021/12/2:[COSC0007 数据结构](/courses/grade-2/COSC0007)
+
 2021/12/2:[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)
+
 2021/12/2:[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)
+
 2021/12/2:[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)
+
 2021/12/2:[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)
+
 2021/12/2:[COSC0003 线性代数](/courses/grade-1/COSC0003)
+
 [nkucs.icu大事记](/recent)
 
 ## 本站存在的目的是？
