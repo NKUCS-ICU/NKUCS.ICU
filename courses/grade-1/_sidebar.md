@@ -1,0 +1,8 @@
+- [首页](/)
+- [课程](/courses/)
+    - [大一课程](/courses/grade-1/)
+        - [MIL1202 军训](/courses/grade-1/MIL1202)
+    - [大二课程](/courses/grade-2/)
+    - [大三课程](/courses/grade-3/)
+    - [大四课程](/courses/grade-4/)
+- [最新评论](/recent)
