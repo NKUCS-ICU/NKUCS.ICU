@@ -28,13 +28,15 @@
 
 ## 如何参与本站的建设？
 
-最小白的方式 **(不建议)**，是将要更新的页面和资源文件发送到[维护人员的邮箱](mailto:emanual20@foxmail.com)。
+最小白的方式(不建议)，是将要更新的页面和资源文件发送到[维护人员的邮箱](mailto:emanual20@yeah.com)。
 
 最简单的方式，是在本站每个页面下方的评论区，留下你所愿意提供的信息与评价，网站维护者会在第一时间看到，且会酌情将其添加为对应页面的内容。**评论区使用Github授权登陆即可，有时Github可能会抽风，这时需要架梯子或稍等一段时间后才能访问。**
 
 更加直接的方式，是点击本站右上角的章鱼图标，进入本站的 [Github 仓库](https://github.com/emanual20/emanual20.github.io/)，以 Pull Request 的方式，提交你对本站内容的改进。
 
-如果你能够长期参与本站的建设，可以联系 [@emanual20](https://github.com/emanual20/)，成为本站的维护人员，**长期招募**。
+如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，**长期招募**。
+
+现任长聘维护人员 [@emanual20](https://github.com/emanual20/)，[@VitalC-3026](https://github.com/VitalC-3026/)，[@Rainefly](https://github.com/Rainefly)。
 
 我们欢迎一切形式、不论大小的贡献！🔥
 
@@ -56,6 +58,8 @@
 
 ## 使用须知
 
+0. 评论区需要使用Github授权登陆，第一次未登录可能会显示"尚未创建评论区"相关提示性话语。这时需要架梯子或稍等一段时间后即可访问。
+
 1. Github账号原则上只用邮箱就可以注册，所以其实可以是匿名的。
 
 2. 不能发表人身攻击、辱骂等言论，不能发表反动、淫秽色情等违法犯罪言论，初次删除，多次封禁IP。
@@ -64,24 +68,24 @@
 
 2021/12/3:
 
-[COSC0019 计算机系统设计](/courses/grade-3/COSC0019) \\\
-[COSC0033 大数据计算机应用](/courses/grade-3/COSC0033)\\\
-[CSSE0010 智能计算系统](/courses/grade-3/CSSE0010)\\\
-[CSSE0015 计算机病毒及其防治技术](/courses/grade-3/CSSE0015)\\\
-[CSSE0038 网络技术与应用](/courses/grade-3/CSSE0038)\\\
+很多课程内容评论区有更新，包括但不限于如下课程:\
+[COSC0019 计算机系统设计](/courses/grade-3/COSC0019) \
+[COSC0033 大数据计算机应用](/courses/grade-3/COSC0033)\
+[CSSE0010 智能计算系统](/courses/grade-3/CSSE0010)\
+[CSSE0015 计算机病毒及其防治技术](/courses/grade-3/CSSE0015)\
+[CSSE0038 网络技术与应用](/courses/grade-3/CSSE0038)\
 [COSC0025 并行程序设计](/courses/grade-2/COSC0025)
 
 2021/12/2:
 
-[COSC0007 数据结构](/courses/grade-2/COSC0007)\\\
-[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)\\\
-[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)\\\
-[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)\\\
-[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)\\\
-[COSC0003 线性代数](/courses/grade-1/COSC0003)\\
-
+[COSC0007 数据结构](/courses/grade-2/COSC0007)\
+[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)\
+[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)\
+[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)\
+[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)\
+[COSC0003 线性代数](/courses/grade-1/COSC0003)\
 [nkucs.icu大事记](/recent)
 
 ## 特别感谢
 
-本站建站灵感来源于[上海交通大学IEEE试点班的主页](https://ieee.icu/)，并参考了其Github代码建站，**在此表示诚挚感谢**。
+本站建站灵感来源于[上海交通大学IEEE试点班的主页](https://ieee.icu/)，并参考了其Github代码建站，已获得使用许可，**在此表示诚挚感谢**。
