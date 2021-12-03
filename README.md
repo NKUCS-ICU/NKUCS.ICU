@@ -4,22 +4,6 @@
 
 > NKUCS，一个充满了「神仙」和「神仙」课程的专业。
 
-## 近期更新页面
-
-2021/12/2:[COSC0007 数据结构](/courses/grade-2/COSC0007)
-
-2021/12/2:[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)
-
-2021/12/2:[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)
-
-2021/12/2:[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)
-
-2021/12/2:[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)
-
-2021/12/2:[COSC0003 线性代数](/courses/grade-1/COSC0003)
-
-[nkucs.icu大事记](/recent)
-
 ## 本站存在的目的是？
 
 本站的面向群众是南开大学计算机学院和网络空间安全学院的本科生，不局限于 CS 专业，下简称 NKUCS。
@@ -75,6 +59,28 @@
 1. Github账号原则上只用邮箱就可以注册，所以其实可以是匿名的。
 
 2. 不能发表人身攻击、辱骂等言论，不能发表反动、淫秽色情等违法犯罪言论，初次删除，多次封禁IP。
+
+## 近期更新页面
+
+2021/12/3:
+
+[COSC0019 计算机系统设计](/courses/grade-3/COSC0019) \\\
+[COSC0033 大数据计算机应用](/courses/grade-3/COSC0033)\\\
+[CSSE0010 智能计算系统](/courses/grade-3/CSSE0010)\\\
+[CSSE0015 计算机病毒及其防治技术](/courses/grade-3/CSSE0015)\\\
+[CSSE0038 网络技术与应用](/courses/grade-3/CSSE0038)\\\
+[COSC0025 并行程序设计](/courses/grade-2/COSC0025)
+
+2021/12/2:
+
+[COSC0007 数据结构](/courses/grade-2/COSC0007)\\\
+[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)\\\
+[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)\\\
+[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)\\\
+[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)\\\
+[COSC0003 线性代数](/courses/grade-1/COSC0003)\\
+
+[nkucs.icu大事记](/recent)
 
 ## 特别感谢
 
