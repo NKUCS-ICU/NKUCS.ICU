@@ -4,15 +4,7 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
-- [COMP0024 外国宪法](/courses/grade-2/COMP0024)
-- [COMP0029 犯罪心理学](/courses/grade-2/COMP0029)
-- [COMP0096 民法学（物权法）](/courses/grade-2/COMP0096)
-- [COMP0097 刑法分论](/courses/grade-2/COMP0097)
-- [COMP0102 刑事诉讼法](/courses/grade-2/COMP0102)
-- [COMP0109 科技法学](/courses/grade-2/COMP0109)
-- [COMP0112 民事诉讼法](/courses/grade-2/COMP0112)
 - [COMP0150 Verilog程序设计](/courses/grade-2/COMP0150)
-- [COMP0156 外国法律制度史](/courses/grade-2/COMP0156)
 - [COSC0006 数字逻辑](/courses/grade-2/COSC0006)
 - [COSC0007 数据结构](/courses/grade-2/COSC0007)
 - [COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)
@@ -34,7 +26,6 @@
 - [CSSE0004 漏洞利用与渗透测试基础](/courses/grade-2/CSSE0004)
 - [CSSE0005 嵌入式系统](/courses/grade-2/CSSE0005)
 - [CSSE0006 信息安全数学基础](/courses/grade-2/CSSE0006)
-- [CSSE0025 中国法律思想史](/courses/grade-2/CSSE0025)
 - [CSSE0026 汇编与逆向技术基础](/courses/grade-2/CSSE0026)
 - [CSSE0027 软件安全](/courses/grade-2/CSSE0027)
 - [IPTD0013 中国近代史纲要](/courses/grade-2/IPTD0013)

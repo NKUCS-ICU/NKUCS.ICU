@@ -1,6 +1,7 @@
 import json
 import os
 
+law_suffix = "law"
 courses_json = "./courses.json"
 grade_urls = [
     "/courses/grade-1/", "/courses/grade-2/",
@@ -19,6 +20,11 @@ course_page_template = """
 
 entry_template = "- [{course_id} {course_name}]({grade_url}{course_id})\n"
 
+IsSuitableForLaw = False
+IsSuitableForLaw = int(input("please input a number for option: 0 for cs, 1 for law:\n"))
+
+if IsSuitableForLaw == 1:
+    courses_json = courses_json.replace("courses", "courses" + "_" + law_suffix)
 
 with open(courses_json, encoding="utf8") as f:
     courses = json.load(f)
@@ -28,7 +34,14 @@ assert len(courses) == 4
 assert all(isinstance(x, dict) for x in courses)
 
 for i in range(4):
+    # print(IsSuitableForLaw)
+    if IsSuitableForLaw == 1:
+        grade_dirs[i] = grade_dirs[i].replace("courses", "courses" + "_" + law_suffix)
+        grade_urls[i] = grade_urls[i].replace("courses", "courses" + "_" + law_suffix)
+    # print(grade_urls[i], grade_dirs[i], courses[i])
+
     grade_courses, grade_dir, grade_url = courses[i], grade_dirs[i], grade_urls[i]
+
     # readme = open(os.path.join(grade_dir, "README.md"),
     #               mode="a", encoding="utf8")
     sidebar = open(os.path.join(grade_dir, "_sidebar.md"),
