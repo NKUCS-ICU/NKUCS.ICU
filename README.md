@@ -75,15 +75,6 @@
 [CSSE0015 计算机病毒及其防治技术](/courses/grade-3/CSSE0015)\
 [CSSE0038 网络技术与应用](/courses/grade-3/CSSE0038)\
 [COSC0025 并行程序设计](/courses/grade-2/COSC0025)
-
-2021/12/2:
-
-[COSC0007 数据结构](/courses/grade-2/COSC0007)\
-[COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)\
-[AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)\
-[AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)\
-[AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)\
-[COSC0003 线性代数](/courses/grade-1/COSC0003)\
 [nkucs.icu大事记](/recent)
 
 ## 特别感谢
