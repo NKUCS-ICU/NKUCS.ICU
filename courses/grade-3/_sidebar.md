@@ -31,7 +31,6 @@
         - [CSSE0017 数字图像处理](/courses/grade-3/CSSE0017)
         - [CSSE0018 网络社会治理](/courses/grade-3/CSSE0018)
         - [CSSE0021 情报分析](/courses/grade-3/CSSE0021)
-        - [CSSE0023 证据学](/courses/grade-3/CSSE0023)
         - [CSSE0028 恶意代码分析与防治技术](/courses/grade-3/CSSE0028)
         - [CSSE0030 密码协议](/courses/grade-3/CSSE0030)
         - [CSSE0038 网络技术与应用](/courses/grade-3/CSSE0038)
