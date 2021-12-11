@@ -1,6 +1,6 @@
 - [首页](/)
-- [课程](/courses/)
-- [法学课程](/courses_law)
+- [CS课程](/courses/)
+- [法学课程](/courses_law/)
     - [大一课程](/courses_law/grade-1/)
     - [大二课程](/courses_law/grade-2/)
         - [COMP0024 外国宪法](/courses_law/grade-2/COMP0024)

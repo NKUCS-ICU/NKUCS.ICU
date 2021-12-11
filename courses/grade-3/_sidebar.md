@@ -1,5 +1,5 @@
 - [首页](/)
-- [课程](/courses/)
+- [CS课程](/courses/)
     - [大一课程](/courses/grade-1/)
     - [大二课程](/courses/grade-2/)
     - [大三课程](/courses/grade-3/)
@@ -39,5 +39,5 @@
         - [IPTD0018 习近平新时代中国特色社会主义思想概论](/courses/grade-3/IPTD0018)
         - [LITE0266 大学语文(理工类)](/courses/grade-3/LITE0266)
     - [大四课程](/courses/grade-4/)
-- [法学课程](/courses_law)
+- [法学课程](/courses_law/)
 - [最新评论](/recent)

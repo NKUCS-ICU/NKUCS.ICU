@@ -1,6 +1,6 @@
 - [首页](/)
-- [课程](/courses/)
-- [法学课程](/courses_law)
+- [CS课程](/courses/)
+- [法学课程](/courses_law/)
     - [大一课程](/courses_law/grade-1/)
         - [COMP0018 中国法制史](/courses_law/grade-1/COMP0018)
         - [COMP0026 法理学](/courses_law/grade-1/COMP0026)

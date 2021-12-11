@@ -1,5 +1,5 @@
 - [首页](/)
-- [课程](/courses/)
+- [CS课程](/courses/)
     - [大一课程](/courses/grade-1/)
         - [AMTD0010 场论与无穷级数(信)](/courses/grade-1/AMTD0010)
         - [AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)
@@ -23,5 +23,5 @@
     - [大二课程](/courses/grade-2/)
     - [大三课程](/courses/grade-3/)
     - [大四课程](/courses/grade-4/)
-- [法学课程](/courses_law)
+- [法学课程](/courses_law/)
 - [最新评论](/recent)
