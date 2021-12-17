@@ -1,4 +1,5 @@
 - [首页](/)
+- [经验分享](/experiences/)
 - [CS课程](/courses/)
     - [大一课程](/courses/grade-1/)
     - [大二课程](/courses/grade-2/)

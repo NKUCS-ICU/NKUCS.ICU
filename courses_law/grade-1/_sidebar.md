@@ -1,4 +1,5 @@
 - [首页](/)
+- [经验分享](/experiences/)
 - [CS课程](/courses/)
 - [法学课程](/courses_law/)
     - [大一课程](/courses_law/grade-1/)
