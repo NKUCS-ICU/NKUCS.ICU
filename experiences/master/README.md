@@ -4,4 +4,4 @@
 
 [计算机保研名词解释, @emanual20 from 2018cs](/experiences/master/master_0.md)
 
-欢迎投稿至[维护人员邮箱](mailto:emanual20@yeah.com)，一经采用，稿费酬谢。
+欢迎投稿至[维护人员邮箱](mailto:emanual20@foxmail.com)，一经采用，稿费酬谢。
