@@ -2,7 +2,7 @@
 - [经验分享](/experiences/)
     - [竞赛、科研(实验室实习)](/experiences/competitions/)
     - [实习、工作](/experiences/careers/)
-    - [考研](/experiences/master_examination/)
+    - [考研](/experiences/master_exam/)
     - [保研](/experiences/master/)
     - [出国](/experiences/abroad/)
     - [考公、选调等其他](/experiences/others/)
