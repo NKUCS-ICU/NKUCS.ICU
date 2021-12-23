@@ -38,7 +38,7 @@
 
    > 典型的强com学校：fdu-cs、sjtu-se、ruc等；
    >
-   > 典型的弱com学校：thu-cs、pku-叉院、ict、ia、nku-cs等。
+   > 典型的弱com学校：thu-cs、pku-叉院、ict、ia等。
 
 5. 学硕、专硕、直博：
 

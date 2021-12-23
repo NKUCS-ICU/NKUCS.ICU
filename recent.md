@@ -12,4 +12,4 @@
 
 2021/12/2: 诞生日，初始化所有课程栏目!
 
-2021/12/2: 本站原域名 emanual20.github.io 暂被该域名占用，[原博客链接](https://nkucs.icu/OriginBlog/)。
+2021/12/2: 本站原域名 emanual20.github.io 暂被该域名占用，[原博客链接](https://emanual20.github.io/OriginBlog/)。
