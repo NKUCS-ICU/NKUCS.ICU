@@ -1,6 +1,6 @@
 ## 有关留学机构取舍的个人己见
 
-> Author: [@NKU-Yang, from 2018IoT](https://github.com/NKU-Yang)
+> Author: [Yang, from 2018IoT](https://github.com/NKU-Yang)
 
 ---
 

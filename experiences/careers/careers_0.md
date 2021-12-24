@@ -1,6 +1,6 @@
 # 阿里云2021年暑期实习经验汇总
 
-> Author: [@NKU-Yang, from 2018IoT](https://github.com/NKU-Yang)
+> Author: [Yang, from 2018IoT](https://github.com/NKU-Yang)
 
 ---
 

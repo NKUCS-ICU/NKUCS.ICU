@@ -4,7 +4,7 @@
 
 ## 实习
 
-[阿里云2021年暑期实习经验汇总, @NKU-Yang from 2018IoT](/experiences/careers/careers_0.md)
+[阿里云2021年暑期实习经验汇总, @Yang from 2018IoT](/experiences/careers/careers_0.md)
 
 ---
 
