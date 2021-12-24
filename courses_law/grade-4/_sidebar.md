@@ -18,5 +18,3 @@
         - [CSSE0022 婚姻家庭法与继承法](/courses_law/grade-4/CSSE0022)
         - [CSSE0024 国际经济法概论](/courses_law/grade-4/CSSE0024)
         - [ECON0149 国际贸易法](/courses_law/grade-4/ECON0149)
-- [最新评论](/recent)
-

@@ -32,4 +32,3 @@
     - [大三课程](/courses/grade-3/)
     - [大四课程](/courses/grade-4/)
 - [法学课程](/courses_law/)
-- [最新评论](/recent)

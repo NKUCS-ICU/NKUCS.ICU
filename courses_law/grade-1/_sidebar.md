@@ -12,5 +12,4 @@
     - [大二课程](/courses_law/grade-2/)
     - [大三课程](/courses_law/grade-3/)
     - [大四课程](/courses_law/grade-4/)
-- [最新评论](/recent)
 

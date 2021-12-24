@@ -4,9 +4,9 @@
 
 ## 竞赛
 
-[CTF经验分享, @buchiyexiao from 2018is](/experiences/competitions/competitions_1.md)
+[CTF经验分享, @buchiyexiao from 2018is](/experiences/comps/comps_1.md)
 
-[编译系统设计赛, @emanual20 from 2018cs](/experiences/competitions/competitions_0.md)
+[编译系统设计赛, @emanual20 from 2018cs](/experiences/comps/comps_0.md)
 
 ## 科研(实验室实习等)
 

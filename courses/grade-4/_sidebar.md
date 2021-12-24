@@ -7,5 +7,3 @@
     - [大四课程](/courses/grade-4/)
         - [COSC0020 毕业论文](/courses/grade-4/COSC0020)
 - [法学课程](/courses_law/)
-- [最新评论](/recent)
-

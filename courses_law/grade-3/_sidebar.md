@@ -24,5 +24,4 @@
         - [CSSE0023 证据学](/courses_law/grade-3/CSSE0023)
         - [ECON0211 财税法](/courses_law/grade-3/ECON0211)
     - [大四课程](/courses_law/grade-4/)
-- [最新评论](/recent)
 

@@ -1,6 +1,6 @@
 - [首页](/)
 - [经验分享](/experiences/)
-    - [竞赛、科研(实验室实习)](/experiences/competitions/)
+    - [竞赛、科研(实验室实习)](/experiences/comps/)
     - [实习、工作](/experiences/careers/)
     - [考研](/experiences/master_exam/)
     - [保研](/experiences/master/)
@@ -16,4 +16,3 @@
     - [大二课程](/courses_law/grade-2/)
     - [大三课程](/courses_law/grade-3/)
     - [大四课程](/courses_law/grade-4/)
-- [最新评论](/recent)

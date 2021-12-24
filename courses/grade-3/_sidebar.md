@@ -41,4 +41,3 @@
         - [LITE0266 大学语文(理工类)](/courses/grade-3/LITE0266)
     - [大四课程](/courses/grade-4/)
 - [法学课程](/courses_law/)
-- [最新评论](/recent)

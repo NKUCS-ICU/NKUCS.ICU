@@ -15,5 +15,4 @@
         - [CSSE0025 中国法律思想史](/courses_law/grade-2/CSSE0025)
     - [大三课程](/courses_law/grade-3/)
     - [大四课程](/courses_law/grade-4/)
-- [最新评论](/recent)
 
