@@ -6,6 +6,7 @@
 
 - [COMP0073 信息隐藏技术](/courses/grade-3/COMP0073)
 - [COMP0074 信息对抗技术](/courses/grade-3/COMP0074)
+- [COSC0001 自然语言处理](/courses/grade-3/COSC0001)
 - [COSC0009 操作系统](/courses/grade-3/COSC0009)
 - [COSC0010 计算机网络](/courses/grade-3/COSC0010)
 - [COSC0011 创新研究与训练](/courses/grade-3/COSC0011)
@@ -16,7 +17,7 @@
 - [COSC0029 计算机视觉基础](/courses/grade-3/COSC0029)
 - [COSC0030 实习实训](/courses/grade-3/COSC0030)
 - [COSC0032 信息检索系统原理](/courses/grade-3/COSC0032)
-- [COSC0033 大数据计算机应用](/courses/grade-3/COSC0033)
+- [COSC0033 大数据计算及应用](/courses/grade-3/COSC0033)
 - [COSC0034 计算机接口技术](/courses/grade-3/COSC0034)
 - [COSC0035 计算机图形学](/courses/grade-3/COSC0035)
 - [COSC0036 软件工程](/courses/grade-3/COSC0036)

@@ -6,4 +6,5 @@
     - [大三课程](/courses/grade-3/)
     - [大四课程](/courses/grade-4/)
         - [COSC0020 毕业论文](/courses/grade-4/COSC0020)
+        - [CSSE0019 算法和协议中的安全机制及应用](/courses/grade-4/CSSE0019)
 - [法学课程](/courses_law/)
