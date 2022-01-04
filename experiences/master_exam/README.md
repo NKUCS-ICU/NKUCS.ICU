@@ -10,7 +10,9 @@
 
 ## 复试
 
-内容暂缺
+[2006-2021年中科大机考，by @zdszero](https://zdszero.github.io/posts/)
+
+[复旦机试题不完全收录, by @anonymous](/experiences/master_exam/me_0.md)
 
 ---
 
