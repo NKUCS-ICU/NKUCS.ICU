@@ -1,24 +1,55 @@
 ## 复旦机试题不完全收录
 
 > Author: [@Anonymous](https://github.com/Anonymous)
+>
+> Recent Updated Date: 1/5/2022
 
-### 2022年预推免
+### 前情提要
 
-[2022预推免](https://github.com/Emanual20/Emanual20.github.io/files/7808944/2021FDU-preexemption.pdf)
+复旦非常喜欢考动态规划，最基本的线性dp、二维dp、树上dp感觉都需要非常熟练，区间dp和插头dp应该用不到。
 
-### 2022年夏令营
+14，15，18，19年的机考被造了一些数据到某OJ上，写完可以试着提交一下。
+
+[Magic Link to OJ](https://noobdream.com/Major/article/79/)
+
+
+### 2021年预推免
+
+[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808944/2021FDU-preexemption.pdf)
+
+### 2021年夏令营
 
 ![](https://s3.bmp.ovh/imgs/2022/01/a2b68a6fefe76d35.jpg)
 
 [Tutorial and Reference Repo link, by @BlankSpacePlus](https://github.com/BlankSpacePlus/fdu-summer-camp-algorithm)
 
+### 2021年
+
+以下是一个蛮详细的2017-2021年复试机考的博客，有题面也有代码思路。
+
+[Magic Link](https://blog.csdn.net/qq_43326014/article/details/115288717)
+
+### 2020年夏令营
+
+[Magic Link](https://blog.csdn.net/qq_42028241/article/details/109011034)
+
+### 2019年
+
+[Magic Link](https://blog.csdn.net/Greepex/article/details/88637871)
+
+### 2015-2018年
+
+以下是一个考生回忆自述。
+
+[Magic Link](https://blog.csdn.net/weixin_43847469/article/details/89004030)
+
 ### 2014年
 
-[Magic Link](https://github.com/Emanual20/Emanual20.github.io/files/7808874/FDU2014.pdf)
+[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808874/FDU2014.pdf)
 
 ### 2013年
 
-[Magic Link](https://github.com/Emanual20/Emanual20.github.io/files/7808862/FDU2013.pdf)
+[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808862/FDU2013.pdf)
 
 ### 2012年
 
