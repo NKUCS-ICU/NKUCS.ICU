@@ -1,5 +1,6 @@
 - [首页](/)
 - [经验分享](/experiences/)
+    - [转专业、辅修](/experiences/minor_trans/)
     - [竞赛、科研(实验室实习)](/experiences/comps/)
     - [实习、工作](/experiences/careers/)
     - [考研](/experiences/master_exam/)
