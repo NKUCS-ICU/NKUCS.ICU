@@ -4,14 +4,10 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
-- [AMTD0010 场论与无穷级数(信)](/courses/grade-1/AMTD0010)
-- [AMTD0011 多元函数微积分(信)](/courses/grade-1/AMTD0011)
-- [AMTD0012 一元函数积分(信)](/courses/grade-1/AMTD0012)
-- [AMTD0013 一元函数微分(信)](/courses/grade-1/AMTD0013)
-- [COSC0002 高级语言程序设计2-1](/courses/grade-1/COSC0002)
+- [AMTD0033/0034 高等数学(A类)I/II](/courses/grade-1/AMTD0033)
+- [COSC0002/0039 高级语言程序设计2-1/2-2](/courses/grade-1/COSC0002)
 - [COSC0003 线性代数](/courses/grade-1/COSC0003)
 - [COSC0021 计算机概论](/courses/grade-1/COSC0021)
-- [COSC0039 高级语言程序设计2-2](/courses/grade-1/COSC0039)
 - [CPTD0007 大学基础物理实验](/courses/grade-1/CPTD0007)
 - [CSSE0002 汇编与逆向技术基础](/courses/grade-1/CSSE0002)
 - [CSSE0011 信息安全概论](/courses/grade-1/CSSE0011)
