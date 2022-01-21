@@ -4,7 +4,12 @@
 
 ## 基础知识
 
-[计算机保研名词解释, @emanual20 from 2018cs](/experiences/master/master_0.md)
+[计算机保研名词解释, @emanual20 from 2018cs](/experiences/master/master_0.md)\
+[计算机保研常见问题, @emanual20 from 2018cs](/experiences/master/master_1.md)
+
+## 相关分享
+
+2022.1.21 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/7911284/20220121.experiences.for.sophomore-Emanual20.pptx) for sophomore, given by [@emanual20](https://github.com/emanual20/) from 2018cs
 
 ## 推免经验
 
