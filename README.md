@@ -1,16 +1,26 @@
 # NKUCS.ICU
 
-> 主页更新于 2022/1/20 0:35
-> 
-> 2022.1.8以来，新冠疫情席卷了天津，希望"ICU"的内容能给你一些压抑氛围下的调剂。
+> 主页更新于 2022/1/25 22:12
 >
 > **因为"各种原因"，网站需要更换一个域名，比较需要的要素是域名短一些、有辨识度一些，如果你有任何想法，可以在本网页的评论区留言或发送到[维护人员的邮箱](mailto:emanual20@foxmail.com)中。**
 
 > 希望朋友们都不要进ICU。
 
-## 🔥Resources🔥
+## 🔥Recruiting🔥
 
-2022.1.21 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/7911284/20220121.experiences.for.sophomore-Emanual20.pptx) for sophomore, given by [@emanual20](https://github.com/emanual20/) 
+我们希望召集1-2名同学加入短期维护团队，有意愿可邮件联系[@Emanual20](mailto:emanual20@foxmail.com)。招满为止。
+
+```
+- 年级要求：2019级；
+- 技能要求：
+    - 熟练使用Git，至少要会用基本的版本维护和Pull Request；
+    - 熟悉Github Page, ICU的网站基本目录结构；
+- 任务量：不会很多，
+    - 主要工作：复核评论、筛选评论更新到md页面中；
+    - 频率：大概半个月一次；
+- 维护津贴：不会很多，
+    - 发放方式：按任务数派发。
+```
 
 ## 本站存在的目的是？
 
