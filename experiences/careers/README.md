@@ -4,7 +4,9 @@
 
 ## 实习
 
-[大三上实习面试经历总结, @applezyh from 2019cs](/experiences/careers/careers_1.md)
+[互联网公司后端开发岗位面试经验分享, @michelle19l from 2018IS](https://mp.weixin.qq.com/s/LeY2icgimp4ozUEoOxvXfQ)
+
+[大三上实习面试经历总结, @applezyh from 2019CS](/experiences/careers/careers_1.md)
 
 [阿里云2021年暑期实习经验汇总, Yang from 2018IoT](/experiences/careers/careers_0.md)
 
