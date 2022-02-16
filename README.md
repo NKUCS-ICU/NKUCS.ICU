@@ -1,8 +1,14 @@
 # NKUCS.ICU
 
-> 主页更新于 2022/2/9 9:00
+> 主页更新于 2022/2/16 20:00
 
 > 希望朋友们都不要进ICU。
+
+## 最近更新页面
+
+我是[仓库Commit历史记录链接](https://github.com/Emanual20/Emanual20.github.io/commits/main)
+
+我是[最近Issues评论链接](https://github.com/Emanual20/Emanual20.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 ## 本站存在的目的是？
 
