@@ -2,6 +2,10 @@
 
 本目录下包括了 **竞赛、科研**(**实验室实习**) 相关经验分享信息。
 
+## 算法学习
+
+[一个菜鸡学习算法走的弯路，希望你能知道，@emanual20 from 2018cs](/experiences/comps/comps_2.md)
+
 ## 竞赛
 
 [CTF经验分享, @buchiyexiao from 2018is](/experiences/comps/comps_1.md)

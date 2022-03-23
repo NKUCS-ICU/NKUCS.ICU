@@ -1,4 +1,4 @@
-## 计算机系统能力大赛编译系统设计赛
+# 计算机系统能力大赛编译系统设计赛
 
 > Author: [@Emanual20](https://github.com/Emanual20)
 
