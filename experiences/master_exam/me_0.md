@@ -2,11 +2,11 @@
 
 > Author: [@Anonymous](https://github.com/Anonymous)
 >
-> Recent Updated Date: 1/5/2022
+> Recently Updated Date: 1/5/2022
 
 ### 前情提要
 
-复旦非常喜欢考动态规划，最基本的线性dp、二维dp、树上dp感觉都需要非常熟练，区间dp和插头dp应该用不到。
+复旦非常喜欢考动态规划，最基本的线性dp、背包dp、树上dp感觉都需要非常熟练，区间dp、换根dp这种比较难的树形dp感觉也不是很会考，插头dp肯定用不到。
 
 14，15，18，19年的机考被造了一些数据到某OJ上，写完可以试着提交一下。
 

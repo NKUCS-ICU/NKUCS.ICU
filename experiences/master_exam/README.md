@@ -4,7 +4,7 @@
 
 ## 初试
 
-内容暂缺
+[2022-中科大计算机学院11408科目425分考研初试经验，by @zhao-pixel](/experiences/master_exam/me_1.md)
 
 ---
 
