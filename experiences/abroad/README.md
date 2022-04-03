@@ -4,7 +4,29 @@
 
 ## 相关经验
 
+[南开CS类 22fall飞跃手册 No.01, by 2018cs](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ)
+
 [有关留学机构取舍的个人己见, Yang from 2018IoT](/experiences/abroad/abroad_0.md)
+
+[南开cs类20fall飞跃手册 12 robotics ai&ml, by 2016robotics](https://mp.weixin.qq.com/s/WS7093phXacfUq1c3VsYjA)
+
+[南开cs类20fall飞跃手册 11 robotics&cs, by 2016robotics](https://mp.weixin.qq.com/s/H22gWtVN-Nvgwp4piwGnxQ)
+
+[飞跃手册特别篇 9 天大软工, by 2016tjucs](https://mp.weixin.qq.com/s/eDqawKCRlnCllASRbWmwHw)
+
+[南开cs类20fall飞跃手册 7, by 2016cs](https://mp.weixin.qq.com/s/NOn2gcT8IRSb-F8JdqoSBA)
+
+[南开cs类20fall飞跃手册 6, by 2016cs](https://mp.weixin.qq.com/s/PZkO9xNOqMTVsUw-mMlmaw)
+
+[南开cs类20fall飞跃手册 5, by 2016cs](https://mp.weixin.qq.com/s/rzzgkezZxP567kbH0X766w)
+
+[南开cs类20fall飞跃手册 4, by 2016cs](https://mp.weixin.qq.com/s/z_RotP7pWC95A32Mg6CSYg)
+
+[南开cs类20fall飞跃手册 3, by 2016cs](https://mp.weixin.qq.com/s/thBC2Z4I0dDffxFFT0qOeA)
+
+[南开cs类20fall飞跃手册 2, by 2016cs](https://mp.weixin.qq.com/s/HRGiTbB9Ua7m71M5t3Twlg)
+
+[南开cs类20fall飞跃手册 1, by 2016cs](https://mp.weixin.qq.com/s/y7hN0iPZLzcUzujOr61G8Q)
 
 ---
 
