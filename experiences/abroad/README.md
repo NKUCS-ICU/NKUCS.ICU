@@ -4,9 +4,11 @@
 
 ## 相关经验
 
-[南开CS类 22fall飞跃手册 No.01, by 2018cs](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ)
+[南开CS类 22fall飞跃手册 No.02](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ), [@JARVISHHH](https://github.com/JARVISHHH) from 2018cs
 
-[有关留学机构取舍的个人己见, Yang from 2018IoT](/experiences/abroad/abroad_0.md)
+[南开CS类 22fall飞跃手册 No.01](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ), by 2018cs
+
+[有关留学机构取舍的个人己见](/experiences/abroad/abroad_0.md), [@NKU-Yang](https://github.com/NKU-Yang) from 2018IoT
 
 [南开cs类20fall飞跃手册 12 robotics ai&ml, by 2016robotics](https://mp.weixin.qq.com/s/WS7093phXacfUq1c3VsYjA)
 
