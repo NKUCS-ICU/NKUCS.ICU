@@ -4,7 +4,7 @@
 
 ## 相关经验
 
-[南开CS类 22fall飞跃手册 No.02](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ), [@JARVISHHH](https://github.com/JARVISHHH) from 2018cs
+[南开CS类 22fall飞跃手册 No.02](https://mp.weixin.qq.com/s/rCGr0GgLgpXyjqiSde8PEg), [@JARVISHHH](https://github.com/JARVISHHH) from 2018cs
 
 [南开CS类 22fall飞跃手册 No.01](https://mp.weixin.qq.com/s/pmW7nRQYOIdmCyK0yl9sAQ), by 2018cs
 
