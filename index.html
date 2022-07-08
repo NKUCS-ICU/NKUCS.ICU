@@ -16,7 +16,11 @@
       name: 'NKUCS.ICU',
       repo: 'emanual20/emanual20.github.io',
       loadSidebar: true,
-      subMaxLevel: 2,
+      alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+            },
+      subMaxLevel: 5,
+      sidebarDisplayLevel: 1, // set sidebar display level
       ga: 'UA-118116525-2',
       search: {
         maxAge: 3600000, // Expiration time, one hour
@@ -54,6 +58,8 @@
   </script>
   <!-- Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Docsify Sidebar Collaps Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- Google Analytics -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
   <!-- Search -->
