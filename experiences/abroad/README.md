@@ -4,6 +4,8 @@
 
 ## 相关经验
 
+[南开CS类 22fall飞跃手册 No.05](https://mp.weixin.qq.com/s/ymji673Q6bH1tSCYIn4mgQ), from 2018cs
+
 [南开CS类 22fall飞跃手册 No.04](https://mp.weixin.qq.com/s/9jAqJF3Riz8rQBWDpXaOJQ), from 2018cs
 
 [南开CS类 22fall飞跃手册 No.03](https://mp.weixin.qq.com/s/lAopPOAPfscRuBJXoWcrgw), [@VitalC-3026](https://github.com/VitalC-3026) from 2018cs
