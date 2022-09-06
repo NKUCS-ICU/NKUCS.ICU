@@ -4,6 +4,8 @@
 
 ## 实习
 
+[华为 ICT 计算产品线 2022 年暑期实习经历，@tinsir888 from 2019CS](https://tinsir888.github.io/posts/6b8f58f7.html)
+
 [互联网公司后端开发岗位面试经验分享, @michelle19l from 2018IS](https://mp.weixin.qq.com/s/LeY2icgimp4ozUEoOxvXfQ)
 
 [大三上实习面试经历总结, @applezyh from 2019CS](/experiences/careers/careers_1.md)
