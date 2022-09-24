@@ -4,7 +4,7 @@ from github import Github
 import json
 import sys
 
-courses_json = "./courses.json"
+courses_json = "./courses_graduate.json"
 grade_urls = [
     "/courses/grade-1/", "/courses/grade-2/",
     "/courses/grade-3/", "/courses/grade-4/"
