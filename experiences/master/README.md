@@ -9,11 +9,11 @@
 
 ## 相关分享
 
-2022.4.4 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/8404098/20220404.-Emanual20.pptx) for junior, given by [@emanual20](https://github.com/emanual20/) from 2018cs
+2022.4.4 tutorial [slides](https://github.com/Emanual20/NKUCS.ICU/files/8404098/20220404.-Emanual20.pptx) for junior, given by [@emanual20](https://github.com/emanual20/) from 2018cs
 
-2022.4.4 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/8404130/20220404.pdf) for junior, given by [@NickSkyyy](https://github.com/NickSkyyy) from 2018cs
+2022.4.4 tutorial [slides](https://github.com/Emanual20/NKUCS.ICU/files/8404130/20220404.pdf) for junior, given by [@NickSkyyy](https://github.com/NickSkyyy) from 2018cs
 
-2022.1.21 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/7911284/20220121.experiences.for.sophomore-Emanual20.pptx) for sophomore, given by [@emanual20](https://github.com/emanual20/) from 2018cs
+2022.1.21 tutorial [slides](https://github.com/Emanual20/NKUCS.ICU/files/7911284/20220121.experiences.for.sophomore-Emanual20.pptx) for sophomore, given by [@emanual20](https://github.com/emanual20/) from 2018cs
 
 2020.9.11 tutorial [谈谈保研](https://mp.weixin.qq.com/s/1anu3g2Z8v9bwAMLHaXJmQ), given by [@Hughshine](https://github.com/Hughshine) from 2017cs
 

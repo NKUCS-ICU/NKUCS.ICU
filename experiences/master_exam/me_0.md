@@ -15,7 +15,7 @@
 
 ### 2021年预推免
 
-[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808944/2021FDU-preexemption.pdf)
+[Download Link for Questions File](https://github.com/Emanual20/NKUCS.ICU/files/7808944/2021FDU-preexemption.pdf)
 
 ### 2021年夏令营
 
@@ -45,11 +45,11 @@
 
 ### 2014年
 
-[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808874/FDU2014.pdf)
+[Download Link for Questions File](https://github.com/Emanual20/NKUCS.ICU/files/7808874/FDU2014.pdf)
 
 ### 2013年
 
-[Download Link for Questions File](https://github.com/Emanual20/Emanual20.github.io/files/7808862/FDU2013.pdf)
+[Download Link for Questions File](https://github.com/Emanual20/NKUCS.ICU/files/7808862/FDU2013.pdf)
 
 ### 2012年
 

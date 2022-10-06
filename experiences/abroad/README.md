@@ -40,7 +40,7 @@
 
 ## 相关分享
 
-2022.1.21 tutorial [slides](https://github.com/Emanual20/Emanual20.github.io/files/7914325/20220121.experience.for.sophomore-VitalC-3026.pptx) for sophomore, given by [@VitalC-3026](https://github.com/VitalC-3026) from 2018cs
+2022.1.21 tutorial [slides](https://github.com/Emanual20/NKUCS.ICU/files/7914325/20220121.experience.for.sophomore-VitalC-3026.pptx) for sophomore, given by [@VitalC-3026](https://github.com/VitalC-3026) from 2018cs
 
 ---
 

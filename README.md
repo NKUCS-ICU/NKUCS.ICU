@@ -15,9 +15,9 @@
 
 ## 最近更新页面
 
-我是[仓库Commit历史记录链接](https://github.com/Emanual20/Emanual20.github.io/commits/main)
+我是[仓库Commit历史记录链接](https://github.com/Emanual20/NKUCS.ICU/commits/main)
 
-我是[最近Issues评论链接](https://github.com/Emanual20/Emanual20.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+我是[最近Issues评论链接](https://github.com/Emanual20/NKUCS.ICU/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 ## 本站存在的目的是？
 
@@ -39,7 +39,7 @@
 
 - 最简单的方式，是在本站每个页面下方的评论区，留下你所愿意提供的信息与评价，网站维护者会在第一时间看到，且会酌情将其添加为对应页面的内容。**评论区需要使用Github授权登陆，有时Github可能会无法登录，这时需要"其他方式"或稍等一段时间后才能访问。**
 
-- 更加直接的方式，是点击本站右上角的章鱼图标，进入本站的 [Github 仓库](https://github.com/emanual20/emanual20.github.io/)，以 Pull Request 的方式，提交你对本站内容的改进。
+- 更加直接的方式，是点击本站右上角的章鱼图标，进入本站的 [Github 仓库](https://github.com/emanual20/NKUCS.ICU/)，以 Pull Request 的方式，提交你对本站内容的改进。
 
     如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，**长期招募**。
 
@@ -133,7 +133,7 @@
 
 本站建站灵感来源于[上海交通大学IEEE试点班的主页](https://ieee.icu/)，并参考了其Github代码建站，已获得使用许可，**在此表示诚挚感谢**。
 
-该域名原为建站者个人博客，如需访问，可点击[链接](https://emanual20.github.io/OriginBlog/)。
+该域名原为建站者个人博客，如需访问，可点击[链接](https://NKUCS.ICU/OriginBlog/)。
 
 **减少信息差，需要所有同学共同努力完成。获取资源的同时，如有余力也可提供自己的信息以供后人参考。**
 
