@@ -19,6 +19,10 @@
 
 我是[最近Issues评论链接](https://github.com/Emanual20/NKUCS.ICU/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Emanual20/NKUCS.ICU&type=Timeline)](https://star-history.com/#Emanual20/NKUCS.ICU&Timeline)
+
 ## 本站存在的目的是？
 
 本网站的存在，旨在记录并共享一些课程的信息及学生的评价；同时，"过来人"以他们的视角，对本科的生活分享一些已有的经验。
