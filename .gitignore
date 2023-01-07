@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+.idea/*
+# utils
+utils/__pycache__/*
