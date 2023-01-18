@@ -1,0 +1,36 @@
+[
+    {
+        "comment_id": "<comment_id>",
+        "comment_fmuuid": "<comment_fmuuid>",
+        "comment_fmnickname": "<comment_fmnickname>",
+        "comment_touuid": "<comment_touuid>",
+        "comment_tonickname": "<comment_tonickname>",
+        "comment_timestamp": "<comment_timestamp>",
+        "comment_fopageid": "<comment_fopageid>",
+        "comment_content": "<comment_content>",
+        "comment_sons": [
+            {
+                "comment_id": "<comment_id>",
+                "comment_fmuuid": "<comment_fmuuid>",
+                "comment_fmnickname": "<comment_fmnickname>",
+                "comment_touuid": "<comment_touuid>",
+                "comment_tonickname": "<comment_tonickname>",
+                "comment_timestamp": "<comment_timestamp>",
+                "comment_fopageid": "<comment_fopageid>",
+                "comment_content": "<comment_content>",
+                "comment_sons": []
+            }
+        ]
+    },
+    {
+        "comment_id": "<comment_id>",
+        "comment_fmuuid": "<comment_fmuuid>",
+        "comment_fmnickname": "<comment_fmnickname>",
+        "comment_touuid": "<comment_touuid>",
+        "comment_tonickname": "<comment_tonickname>",
+        "comment_timestamp": "<comment_timestamp>",
+        "comment_fopageid": "<comment_fopageid>",
+        "comment_content": "<comment_content>",
+        "comment_sons": []
+    }
+]

@@ -52,7 +52,7 @@ def insert_into_db_courses(files, base_course_id, course_type, course_department
         course_department = course_department
         if course_nkcode == 'README' or course_name == 'README':
             continue
-        sql = "INSERT INTO courses (course_id, course_isvalid, course_nkcode, course_name, course_type, course_department) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format(course_id, True, course_nkcode, course_name, course_type, course_department)
+        sql = "INSERT INTO courses (course_id, course_isvalid, course_nkcode, course_name, course_type, course_department) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format(course_id, 1, course_nkcode, course_name, course_type, course_department)
         connector.cursor.execute(sql)
         connector.conn.commit()
         counter += 1
