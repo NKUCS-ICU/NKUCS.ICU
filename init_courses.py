@@ -3,14 +3,14 @@ import string
 import os
 
 law_suffix = "law"
-courses_json = "./courses_graduate.json"
-# grade_urls = [
-#     "/courses/grade-1/", "/courses/grade-2/",
-#     "/courses/grade-3/", "/courses/grade-4/"
-# ]
+courses_json = "./courses.json"
 grade_urls = [
-    "/courses_maphd/1/"
+    "/courses/grade-1/", "/courses/grade-2/",
+    "/courses/grade-3/", "/courses/grade-4/"
 ]
+# grade_urls = [
+#     "/courses_maphd/1/"
+# ]
 
 grade_dirs = ["." + x for x in grade_urls]
 
@@ -65,7 +65,8 @@ for i in range(len(grade_urls)):
                    mode="a", encoding="utf8")
     for course_id in sorted(grade_courses.keys()):  # sort by course ID
         course_name = grade_courses[course_id]
-        hashed_course_id = int_2_hashstring(course_id)
+        # hashed_course_id = int_2_hashstring(course_id)
+        hashed_course_id = course_id
         course_path = os.path.join(
             grade_dir, hashed_course_id.replace("/", "-") + ".md")
         if not os.path.exists(course_path):
