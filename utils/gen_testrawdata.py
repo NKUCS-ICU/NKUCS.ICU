@@ -31,7 +31,8 @@ class Connector(object):
 
 def show_files(base_path):
     ret_files = []
-    for root, dirs, files in os.walk(top=base_path, followlinks=True):
+    print(base_path)
+    for root, dirs, files in os.walk(top=base_path):
         if dirs is not []:
             for file in files:
                 if fnmatch(file, "*.md"):
@@ -75,7 +76,13 @@ def insert_into_db_pages(files, base_page_id):
         # print(page_content)
         if course_nkcode == 'README':
             continue
-        sql = "INSERT INTO pages (page_id, page_type, page_createtimestamp, page_updatetimestamp, page_content) VALUES ('{}', '{}', '{}', '{}', '{}');".format(page_id, "Course", page_createtimestamp, page_updatetimestamp, page_content)
+        hh = file
+        hh = hh.replace('..', '').replace('\\', '/').replace('.md', '')
+        githubpage_url = "https://nkucs.icu/#" + hh
+        sql = "INSERT INTO pages (page_id, page_type, page_createtimestamp, page_updatetimestamp, page_content, page_githubpageurl) \
+            VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format(
+                page_id, "Course", page_createtimestamp, page_updatetimestamp, page_content, githubpage_url
+            )
         try:
             connector.cursor.execute(sql)
         except pymysql.err.IntegrityError:
@@ -88,6 +95,6 @@ if __name__ == '__main__':
     connector = Connector()
     files1 = show_files(path1)
     files2 = show_files(path2)
-    insert_into_db_courses(files1, base_course_id="COURSE21", course_type="computer science", course_department="college of computer science/cyber security")
-    insert_into_db_courses(files2, base_course_id="COURSE22", course_type="law", course_department="college of cyber security/law")
-    insert_into_db_pages(files1 + files2, base_page_id="PAGE21")
+    # insert_into_db_courses(files1, base_course_id="COURSE21", course_type="computer science", course_department="college of computer science/cyber security")
+    # insert_into_db_courses(files2, base_course_id="COURSE22", course_type="law", course_department="college of cyber security/law")
+    insert_into_db_pages(files1 + files2, base_page_id="PAGE")
