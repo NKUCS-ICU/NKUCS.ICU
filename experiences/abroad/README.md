@@ -4,7 +4,7 @@
 
 ## 相关经验
 
-[出国留学申请流水账记录](https://tinsir888.github.io/posts/fc8a9ea4.html), from 2019cs
+[南开CS类 23fall CS/AI 方向欧陆申请流水账](https://tinsir888.github.io/posts/fc8a9ea4.html), [@tinsir888](https://github.com/tinsir888) from 2019cs
 
 [南开CS类 22fall飞跃手册 No.05](https://mp.weixin.qq.com/s/ymji673Q6bH1tSCYIn4mgQ), from 2018cs
 
