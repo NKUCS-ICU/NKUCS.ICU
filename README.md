@@ -1,11 +1,11 @@
 # NKUCS.ICU
 
-> 主页更新于 2023/3/22 19:00
+> 主页更新于 2023/7/12 21:00
 
 >
-> **1. 为方便后续功能扩展，网站所挂靠的仓库将从维护者的个人账户[@Emanual20](https://github.com/Emanual20)转移到组织仓库[@NKUCS.ICU](https://github.com/NKUCS-ICU)，~~因此本网站会在3.20 0时开始停服维护~~（已转移完成）。维护后可能会影响到某些页面的附件链接不存在，如有此类现象可及时和[网站管理员联系](mailto:emanual20@foxmail.com)。**
+> **1. 长期招募网站维护者，期望是本校计网学院同学或毕业生。有想法可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
 >
-> **2. 长期招募网站维护者，期望是本校cs相关专业同学或毕业生。有想法可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
+> **2. Recent Update: [Ph.D. Application Experience of America](https://github.com/NKUCS-ICU/NKUCS.ICU/commit/447d1abad79ec503e207b1b06b015e9c9cb98dca) given by [@hsu0204](https://github.com/HsuyuanLiu)**
 > 
 
 > 希望朋友们都不要进ICU。
