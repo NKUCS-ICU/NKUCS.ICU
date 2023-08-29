@@ -1,11 +1,13 @@
 # NKUCS.ICU
 
-> 主页更新于 2023/7/12 21:00
+> 主页更新于 2023/8/30 1:00
 
 >
 > **1. 长期招募网站维护者，期望是本校计网学院同学或毕业生。有想法可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
 >
-> **2. Recent Update: [Ph.D. Application Experience of America](https://github.com/NKUCS-ICU/NKUCS.ICU/commit/447d1abad79ec503e207b1b06b015e9c9cb98dca) given by [@hsu0204](https://github.com/HsuyuanLiu)**
+> **2. 支持友院也有自己的ICU网站了！南开软件学院ICU网站[nkuse.icu](https://nkuse.icu)**
+>
+> **3. 虽然小程序的事情[我](https://github.com/Emanual20)真的鸽了很久，确实之前搞大模型太累了，但大概打算今年10月份开始自己一个人单干重启这个计划开始写吧:)**
 > 
 
 > 希望朋友们都不要进ICU。
@@ -126,7 +128,7 @@
 
 2. 找到你想更新的课程对应的文件，进行修改。
 
-3. 在 `README.md` 中的**近期更新界面**部分👇添加你修改的内容，以便其他同学查阅。（不用修改最新评论）
+3. 在 `README.md` 中的**近期更新界面**部分👇添加你修改的内容，以便其他同学查阅。
 
 4. 发起 Pull Request，等待维护者审阅。
 
@@ -137,3 +139,8 @@
 **减少信息差，需要所有同学共同努力完成。获取资源的同时，如有余力也可提供自己的信息以供后人参考。**
 
 **感谢关注，随时欢迎提供资源和提出宝贵建议！**
+
+## 友情链接
+
+- [IEEE.ICU](https://ieee.icu/)
+- [NKUSE.ICU](https://nkuse.icu/)
