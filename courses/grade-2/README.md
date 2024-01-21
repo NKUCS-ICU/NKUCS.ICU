@@ -5,7 +5,7 @@
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
 - [COMP0150 Verilog程序设计](/courses/grade-2/COMP0150)
-- [COSC0006 数字逻辑](/courses/grade-2/COSC0006)
+- [COSC0041 数字逻辑](/courses/grade-2/COSC0006)
 - [COSC0007 数据结构](/courses/grade-2/COSC0007)
 - [COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)
 - [COSC0013 数据库系统](/courses/grade-2/COSC0013)

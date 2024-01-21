@@ -20,7 +20,7 @@
 - [COSC0033 大数据计算及应用](/courses/grade-3/COSC0033)
 - [COSC0034 计算机接口技术](/courses/grade-3/COSC0034)
 - [COSC0035 计算机图形学](/courses/grade-3/COSC0035)
-- [COSC0036 软件工程](/courses/grade-3/COSC0036)
+- [COSC0048 软件工程](/courses/grade-3/COSC0036)
 - [COSC0037 移动平台应用开发](/courses/grade-3/COSC0037)
 - [COSC0054 深度学习及应用](/courses/grade-3/COSC0054)
 - [CSSE0007 物联网安全](/courses/grade-3/CSSE0007)
