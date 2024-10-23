@@ -147,4 +147,72 @@ XCPC 是指一系列课外的编程竞赛活动，其中包含许多与 ICPC、C
 
 ## 科研(实验室实习等)
 
+### 师资与学术团队
+
+[计算机学院师资队伍](https://cc.nankai.edu.cn/jswyjy/list.htm#)
+[计算机学院学术团队](https://cc.nankai.edu.cn/13281/list.htm)
+
+### 研究领域
+
+#### CV
+
+##### [南开大学媒体计算实验室](https://mmcheng.net/)
+
+###### 学术带头人：程明明
+
+[程明明学院主页](https://cc.nankai.edu.cn/2021/0323/c13619a490390/page.htm)
+[Ming-Ming Cheng on Web of Science](https://www.webofscience.com/wos/author/record/1390037)
+
+##### [南开大学计算机视觉实验室](https://cv.nankai.edu.cn/)
+
+###### 学术带头人：杨巨峰
+
+#### 数据库与信息系统
+
+##### [南开大学数据库与信息系统研究室](https://dbis.nankai.edu.cn/)
+
+###### 学术带头人：[袁晓洁](https://cc.nankai.edu.cn/2021/0323/c13619a548861/page.htm)
+
+###### [温延龙](https://cc.nankai.edu.cn/2021/0323/c13619a551346/page.htm)
+
+###### [张莹](https://cc.nankai.edu.cn/2021/0323/c13619a548856/page.htm)
+
+###### [孙宇](https://cc.nankai.edu.cn/2021/0323/c13621a550004/page.htm)
+
+#### 并行与并行与分布式软件
+
+##### [南开大学并行与分布式软件实验室](https://nbjl.nankai.edu.cn/)
+
+###### 学术带头人：[刘晓光](https://cc.nankai.edu.cn/2021/0323/c13619a548878/page.htm)
+
+###### [王刚](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm)
+
+#### 智能计算系统
+
+##### [南开大学智能计算系统研究室](https://ics.nankai.edu.cn/)
+
+###### [李涛](https://cc.nankai.edu.cn/2021/0323/c13619a548882/page.htm)
+
+###### [王刚](https://cc.nankai.edu.cn/2021/0323/c13619a548871/page.htm)
+
+#### NLP&知识图谱
+
+##### [沈玮](https://cc.nankai.edu.cn/2021/0323/c13619a548874/page.htm)
+
+##### [周宇](https://cc.nankai.edu.cn/2021/0323/c13619a548854/page.htm)
+
+##### [秦勇](https://cc.nankai.edu.cn/2021/0323/c13619a548876/page.htm)
+
+##### [温延龙](https://cc.nankai.edu.cn/2021/0323/c13619a551346/page.htm)
+
+##### [杨征路](https://cc.nankai.edu.cn/2021/0323/c13619a548862/page.htm)
+
+##### [袁晓洁](https://cc.nankai.edu.cn/2021/0323/c13619a548861/page.htm)
+
+##### [张文生](https://cc.nankai.edu.cn/2021/0323/c13619a548857/page.htm)
+
+##### [张莹](https://cc.nankai.edu.cn/2021/0323/c13619a548856/page.htm)
+
+##### [李忠伟](https://cc.nankai.edu.cn/2021/0323/c13620a549978/page.htm)
+
 欢迎投稿至[维护人员邮箱](mailto:emanual20@foxmail.com)，一经采用，稿费酬谢
