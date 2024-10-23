@@ -147,4 +147,4 @@ XCPC 是指一系列课外的编程竞赛活动，其中包含许多与 ICPC、C
 
 ## 科研(实验室实习等)
 
-欢迎投稿至[维护人员邮箱](mailto:emanual20@foxmail.com)，一经采用，稿费酬谢。
+欢迎投稿至[维护人员邮箱](mailto:emanual20@foxmail.com)，一经采用，稿费酬谢
