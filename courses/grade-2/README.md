@@ -7,7 +7,6 @@
 - [COMP0150 Verilog程序设计](/courses/grade-2/COMP0150)
 - [COSC0041 数字逻辑](/courses/grade-2/COSC0006)
 - [COSC0007 数据结构](/courses/grade-2/COSC0007)
-- [COSC0012 概率论与数理统计](/courses/grade-2/COSC0012)
 - [COSC0013 数据库系统](/courses/grade-2/COSC0013)
 - [COSC0014 离散数学](/courses/grade-2/COSC0014)
 - [COSC0015 人工智能导论](/courses/grade-2/COSC0015)
