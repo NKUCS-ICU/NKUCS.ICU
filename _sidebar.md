@@ -13,7 +13,7 @@
         - [AMTD0033/0034 高等数学(A类)I/II](/courses/grade-1/AMTD0033)
         - [COSC0002/0039 高级语言程序设计2-1/2-2](/courses/grade-1/COSC0002)
         - [COSC0003 线性代数](/courses/grade-1/COSC0003)
-        - [COSC0012 概率论与数理统计](/courses/grade-2/COSC0012) 
+        - [COSC0012 概率论与数理统计](/courses/grade-1/COSC0012) 
         - [COSC0021 计算机概论](/courses/grade-1/COSC0021)
         - [CPTD0007 大学基础物理实验](/courses/grade-1/CPTD0007)
         - [CSSE0002 汇编与逆向技术基础](/courses/grade-1/CSSE0002)
