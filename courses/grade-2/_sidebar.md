@@ -16,7 +16,7 @@
 - [COSC0057 Go语言与应用](/courses/grade-2/COSC0057)
 - [COSC0059 计算机科学前沿技术](/courses/grade-2/COSC0059)
 - [COSC0060 数据可视化](/courses/grade-2/COSC0060)
-- [COSC0066 Python语言程序设计（高阶课程）](/courses/grade-2/COSC0066)
+- [COSC0066 Pyon语言程序设计（高阶课程）](/courses/grade-2/COSC0066)
 - [CSSE0003 感知技术与应用](/courses/grade-2/CSSE0003)
 - [CSSE0005 嵌入式系统](/courses/grade-2/CSSE0005)
 - [CSSE0006 信息安全数学基础](/courses/grade-2/CSSE0006)
