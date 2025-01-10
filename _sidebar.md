@@ -75,6 +75,7 @@
       - [COSC0017 编译系统原理](/courses/grade-3/COSC0017)
       - [COSC0018 计算机体系结构](/courses/grade-3/COSC0018)
       - [COSC0019 计算机系统设计](/courses/grade-3/COSC0019)
+      - [COSC0024 互联网数据库开发](/courses/grade-2/COSC0024)
       - [COSC0028 机器学习及应用](/courses/grade-3/COSC0028)
       - [COSC0029 计算机视觉基础](/courses/grade-3/COSC0029)
       - [COSC0030 实习实训](/courses/grade-3/COSC0030)

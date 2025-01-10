@@ -7,7 +7,6 @@
 - [COSC0015 人工智能导论](/courses/grade-2/COSC0015)
 - [COSC0016 算法导论](/courses/grade-2/COSC0016)
 - [COSC0022 Java语言与应用](/courses/grade-2/COSC0022)
-- [COSC0024 互联网数据库开发](/courses/grade-2/COSC0024)
 - [COSC0025 并行程序设计](/courses/grade-2/COSC0025)
 - [COSC0026 计算方法](/courses/grade-2/COSC0026)
 - [COSC0027 可视化技术基础](/courses/grade-2/COSC0027)
