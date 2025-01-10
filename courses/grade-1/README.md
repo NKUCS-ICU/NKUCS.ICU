@@ -2,7 +2,6 @@
 - [COSC0002 高级语言程序设计2-1/2-2](/courses/grade-1/COSC0002)
 - [COSC0003 线性代数](/courses/grade-1/COSC0003)
 - [COSC0021 计算机概论](/courses/grade-1/COSC0021)
-- [COSC0065 计算机科学国际前沿](/courses/grade-1/COSC0065)
 - [CPTD0007 大学基础物理实验](/courses/grade-1/CPTD0007)
 - [CSSE0002 汇编与逆向技术基础](/courses/grade-1/CSSE0002)
 - [CSSE0011 信息安全概论](/courses/grade-1/CSSE0011)
@@ -16,4 +15,3 @@
 - [MITD0004 军训](/courses/grade-1/MITD0004)
 - [MITD0005 军事技能训练](/courses/grade-1/MITD0005)
 - [SOFT0186 专业认知导引](/courses/grade-1/SOFT0186)
-- [UPRC0001 新生研讨课](/courses/grade-1/UPRC0001)
