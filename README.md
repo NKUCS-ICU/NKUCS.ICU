@@ -1,22 +1,20 @@
 # NKUCS.ICU
 
-> 主页更新于 2025/1/11 4:00
+> 主页更新于 2025/9/3 0:00
 >
-> **1. 长期招募网站维护者，期望是本校计网学院同学或毕业生。有想法可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
+> **1. 长期招募网站维护者，要求为计网学生或毕业生。有任何想法、及需要贡献素材等均可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
+>
+> **2. 因ICU涉及域名续费等开销，根据[意见征集issue](https://github.com/NKUCS-ICU/NKUCS.ICU/issues/323) 的结果，[长期赞助通道](https://github.com/NKUCS-ICU/NKUCS.ICU/issues/324)已开启。赞助金额专用于续费域名开支，超出续费域名开支部分的赞助金额以ICU团队名义直接捐赠腾讯公益。**
 > 
-> **2. 支持友院也有自己的ICU网站了！南开软件学院ICU网站[nkuse.icu](https://nkuse.icu)**
-> 
-> **3. 课程列表与2023级计科的培养计划对齐了！(新增课程的页面评论区已初始化✅)**
-> 
-> **4. 自动化LLM生成评论综述preview1.0发布!🆕详见[issue#306](https://github.com/NKUCS-ICU/NKUCS.ICU/issues/306)**
+> <img src="https://github.com/user-attachments/assets/5131e8c9-8689-4e03-b744-0816a4bff5bd" width="150" />
 >
 > 希望朋友们都不要进ICU。
 
 ## 最近更新页面
 
-我是[仓库Commit历史记录链接](https://github.com/NKUCS-ICU/NKUCS.ICU/commits/main)
+[仓库Commit历史记录链接](https://github.com/NKUCS-ICU/NKUCS.ICU/commits/main)
 
-我是[最近Issues评论链接](https://github.com/NKUCS-ICU/NKUCS.ICU/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+[最近Issues评论链接](https://github.com/NKUCS-ICU/NKUCS.ICU/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
 ## Star History
 
