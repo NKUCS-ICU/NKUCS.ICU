@@ -31,6 +31,20 @@
 *.out
 *.app
 
+# IDE
 .idea/*
-# utils
+.vscode/*
+
+# Utils
 utils/__pycache__/*
+
+# OS generated files
+desktop.ini
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+
+# Environment
+.env
+.env.local

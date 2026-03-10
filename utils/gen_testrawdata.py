@@ -1,15 +1,15 @@
 import os
 from fnmatch import fnmatch
 
-path1 = "..\\courses"
-path2 = "..\\courses_law"
-path3 = "..\\courses_maphd"
-
 import pymysql
 from settings import MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE
 from pymysql import connect
 from pymysql.cursors import DictCursor
-from pymysql.converters import escape_string
+
+# Cross-platform path separators
+path1 = os.path.join("..", "courses")
+path2 = os.path.join("..", "courses_law")
+path3 = os.path.join("..", "courses_maphd")
 
 
 class Connector(object):
@@ -22,7 +22,7 @@ class Connector(object):
             database=MYSQL_DATABASE,
             charset='utf8mb4'
         )
-        self.cursor=self.conn.cursor(DictCursor)  # 这个可以让他返回字典的形式
+        self.cursor = self.conn.cursor(DictCursor)
 
     def __del__(self):
         self.cursor.close()
@@ -33,10 +33,9 @@ def show_files(base_path):
     ret_files = []
     print(base_path)
     for root, dirs, files in os.walk(top=base_path):
-        if dirs is not []:
-            for file in files:
-                if fnmatch(file, "*.md"):
-                    ret_files.append(root+"\\"+file)
+        for file in files:
+            if fnmatch(file, "*.md"):
+                ret_files.append(os.path.join(root, file))
     return ret_files
 
 
@@ -44,17 +43,16 @@ def insert_into_db_courses(files, base_course_id, course_type, course_department
     counter = 100000
     for file in files:
         course_id = base_course_id + str(counter)
-        course_nkcode = file.split('\\')[-1].split('.')[0]
-        fdes = open(file, 'rb')
-        fdes.readline()
-        fline = fdes.readline().decode('utf-8')
-        course_name = fline.split(' ')[-1]
-        course_type = course_type
-        course_department = course_department
+        course_nkcode = os.path.splitext(os.path.basename(file))[0]
+        with open(file, 'rb') as fdes:
+            fdes.readline()
+            fline = fdes.readline().decode('utf-8')
+        course_name = fline.split(' ')[-1].strip()
         if course_nkcode == 'README' or course_name == 'README':
             continue
-        sql = "INSERT INTO courses (course_id, course_isvalid, course_nkcode, course_name, course_type, course_department) VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format(course_id, 1, course_nkcode, course_name, course_type, course_department)
-        connector.cursor.execute(sql)
+        # Use parameterized query to prevent SQL injection
+        sql = "INSERT INTO courses (course_id, course_isvalid, course_nkcode, course_name, course_type, course_department) VALUES (%s, %s, %s, %s, %s, %s)"
+        connector.cursor.execute(sql, (course_id, 1, course_nkcode, course_name, course_type, course_department))
         connector.conn.commit()
         counter += 1
 
@@ -62,29 +60,26 @@ def insert_into_db_courses(files, base_course_id, course_type, course_department
 def insert_into_db_pages(files, base_page_id):
     counter = 100000
     for file in files:
-        course_nkcode = file.split('\\')[-1].split('.')[0]
+        course_nkcode = os.path.splitext(os.path.basename(file))[0]
         page_id = base_page_id + str(counter)
         page_createtimestamp = "2023-01-08 00:01:02"
         page_updatetimestamp = "2023-01-08 00:01:02"
-        fdes = open(file, 'rb')
-        flines = fdes.readlines()
+        with open(file, 'rb') as fdes:
+            flines = fdes.readlines()
         page_content = ""
         for line in flines:
             page_content = page_content + line.decode('utf-8') + "\n"
-        page_content = escape_string(page_content)
-        # page_content = page_content.replace('🔥', '').replace('⚡', '')
-        # print(page_content)
         if course_nkcode == 'README':
             continue
-        hh = file
-        hh = hh.replace('..', '').replace('\\', '/').replace('.md', '')
-        githubpage_url = "https://nkucs.icu/#" + hh
-        sql = "INSERT INTO pages (page_id, page_type, page_createtimestamp, page_updatetimestamp, page_content, page_githubpageurl) \
-            VALUES ('{}', '{}', '{}', '{}', '{}', '{}');".format(
-                page_id, "Course", page_createtimestamp, page_updatetimestamp, page_content, githubpage_url
-            )
+        # Build GitHub Pages URL using os.path for cross-platform compatibility
+        rel_path = os.path.relpath(file, "..")
+        githubpage_url = "https://nkucs.icu/#/" + rel_path.replace(os.sep, '/').replace('.md', '')
+        # Use parameterized query to prevent SQL injection
+        sql = ("INSERT INTO pages (page_id, page_type, page_createtimestamp, page_updatetimestamp, "
+               "page_content, page_githubpageurl) VALUES (%s, %s, %s, %s, %s, %s)")
         try:
-            connector.cursor.execute(sql)
+            connector.cursor.execute(sql, (page_id, "Course", page_createtimestamp,
+                                           page_updatetimestamp, page_content, githubpage_url))
         except pymysql.err.IntegrityError:
             continue
         connector.conn.commit()
