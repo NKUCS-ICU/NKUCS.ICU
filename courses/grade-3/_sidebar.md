@@ -18,6 +18,8 @@
 - [COSC0048 软件工程](/courses/grade-3/COSC0048)
 - [COSC0054 深度学习及应用](/courses/grade-3/COSC0054)
 - [COSC0061 语音信息处理技术](/courses/grade-3/COSC0061)
+- [COSC0072 人工智能实践课-初级](/courses/grade-3/COSC0072)
+- [COSC0075 计算机系统前沿](/courses/grade-3/COSC0075)
 - [CSSE0007 物联网安全](/courses/grade-3/CSSE0007)
 - [CSSE0008 物联网通信技术](/courses/grade-3/CSSE0008)
 - [CSSE0009 网络安全技术](/courses/grade-3/CSSE0009)
