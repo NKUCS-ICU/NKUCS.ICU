@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NKUCS.ICU</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="a website which collects informations">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'NKUCS.ICU',
+      repo: 'emanual20/NKUCS.ICU',
+      loadSidebar: true,
+      alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      footer: {
+        copy: '<span id="busuanzi_container_site_pv"> 👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次</span> <span id="busuanzi_container_site_uv">| 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人</span></br>',
+        copy: '<span>Copyright &copy;</span>',
+        copy: '<span id="sitetime"></span> <br/> <span>Copyright &copy; 2022 &nbsp Maintainer:</span>',
+        auth: ' <strong><a href="https://github.com/emanual20" target="_blank">@Emanual20</a> <a href="https://github.com/VitalC-3026/" target="_blank">@VitalC-3026</a> <a href="https://github.com/Rainefly" target="_blank">@Rainefly</a> <a href="https://github.com/aokimi0" target="_blank">@aokimi0</a> </strong>',
+        pre: '<hr/>',
+        style: 'font-size: 18px; text-align: center;',
+      },
+      subMaxLevel: 5,
+      sidebarDisplayLevel: 1, // set sidebar display level
+      ga: 'UA-118116525-2',
+      search: {
+        maxAge: 3600000, // Expiration time, one hour
+        paths: 'auto',
+        // Localization
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': 'Type to search'
+        },
+        // Localization
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: true,
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: 'nkucs.icu',
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      plugins: [
+        // remove url parameters before loading Gitalk
+        // as Gitalk uses location.href as id
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            var splited = location.href.split('?')
+            if (splited.length >= 2 && !splited[1].startsWith("code=")) {
+              location.href = location.href.split('?')[0]
+            }
+          });
+        }
+      ],
+    }
+  </script>
+  <!-- Word Count -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Docsify Sidebar Collaps Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Google Analytics -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJ34CDVTRX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XJ34CDVTRX');
+  </script>
+  <!-- Busuanzi for visitor counting -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <!-- Search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Gitalk -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '85f33f9d7cc7463e63b5',
+      clientSecret: '06366ea6fb876fa2e9fd209b9e04f532040ceade',
+      repo: 'NKUCS.ICU',
+      owner: 'emanual20',
+      admin: ['emanual20', 'Rainefly', 'VitalC-3026','aokimi0'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+  <!-- Pangu -->
+  <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
+  <script>
+      pangu.spacingPage();
+      document.addEventListener('DOMContentLoaded', () => {
+        // listen to any DOM change and automatically perform spacing via MutationObserver()
+        pangu.autoSpacingPage();
+      });</script>
+  <!-- back to top-->
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        title: 'back to top',
+        titleAsText: true
+      });
+    });
+  </script>
+  <!-- Larger Picture -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Footer -->
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <!-- Existing time -->
+  <script language=javascript>
+    function siteTime() {
+      window.setTimeout("siteTime()", 1000);
+      var seconds = 1000;
+      var minutes = seconds * 60;
+      var hours = minutes * 60;
+      var days = hours * 24;
+      var years = days * 365;
+      var today = new Date();
+      var todayYear = today.getFullYear();
+      var todayMonth = today.getMonth() + 1;
+      var todayDate = today.getDate();
+      var todayHour = today.getHours();
+      var todayMinute = today.getMinutes();
+      var todaySecond = today.getSeconds();
+      var t1 = Date.UTC(2021, 12, 02, 00, 00, 00); 
+      var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+      var diff = t2 - t1;
+      var diffYears = Math.floor(diff / years);
+      var diffDays = Math.floor((diff / days) - diffYears * 365);
+      var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+      var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+      var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+      document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+    }
+    siteTime();
+  </script>
+</body>
+</html>
