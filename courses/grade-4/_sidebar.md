@@ -1,2 +1,0 @@
-- [COSC0020 毕业论文](/courses/grade-4/COSC0020)
-- [CSSE0019 算法和协议中的安全机制及应用](/courses/grade-4/CSSE0019)
