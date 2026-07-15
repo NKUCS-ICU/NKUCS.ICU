@@ -144,3 +144,4 @@
 
 - [IEEE.ICU](https://ieee.icu/)
 - [NKUSE.ICU](https://nkuse.icu/)
+- [NKUStudy](https://nkustudy.top/)
