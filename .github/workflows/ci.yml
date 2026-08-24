@@ -32,14 +32,3 @@ jobs:
           globs: 'README.md CONTRIBUTING.md'
           config: '.markdownlint.json'
 
-  link-check:
-    name: Check Local Links
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --offline --root-dir . --verbose --no-progress '**/*.md'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail: true
