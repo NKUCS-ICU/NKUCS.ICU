@@ -1,44 +1,58 @@
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python3
 
-from github import Github
 import json
+import os
 import sys
+from urllib.request import Request, urlopen
 
-courses_json = "./courses.json"
-grade_urls = [
-    "/courses/grade-1/", "/courses/grade-2/",
-    "/courses/grade-3/", "/courses/grade-4/"
-]
-grade_dirs = ["." + x for x in grade_urls]
-
-with open(courses_json, encoding="utf8") as f:
-    courses = json.load(f)
+from scripts.site_tools import parse_course_groups
 
 course2file = {}
-for i in range(4):
-    grade_courses, grade_dir, grade_url = courses[i], grade_dirs[i], grade_urls[i]
-    for course_id in grade_courses:
-        course2file[course_id] = grade_url + course_id
+for group_route, entries in parse_course_groups().items():
+    if not group_route.startswith("/courses/grade-"):
+        continue
+    for entry in entries:
+        course2file[entry.course_id] = entry.route
+
+
+def fetch_issues(access_token):
+    page = 1
+    while True:
+        url = (
+            "https://api.github.com/repos/NKUCS-ICU/NKUCS.ICU/issues"
+            f"?state=all&sort=updated&per_page=100&page={page}"
+        )
+        request = Request(
+            url,
+            headers={
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {access_token}",
+                "User-Agent": "NKUCS.ICU-maintenance-script",
+            },
+        )
+        with urlopen(request, timeout=30) as response:
+            issues = json.load(response)
+        yield from issues
+        if len(issues) < 100:
+            return
+        page += 1
+
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("plz provide a Github access token")
+    access_token = os.environ.get("GITHUB_TOKEN")
+    if not access_token:
+        print("please set GITHUB_TOKEN in the environment", file=sys.stderr)
         exit(1)
-    access_token = sys.argv[1]
-    g = Github(access_token)
-    repo = g.get_repo("emanual20/NKUCS.ICU")
-
     print("# 最新评论\n")
 
-    issues = repo.get_issues(sort="updated")
     date_courses = {}
-    for issue in issues:
-        if issue.comments == 0:
+    for issue in fetch_issues(access_token):
+        if "pull_request" in issue or issue["comments"] == 0:
             continue
-        title = issue.title
+        title = issue["title"]
         if title.split()[0] not in course2file:
             continue
-        date = str(issue.updated_at).split()[0]
+        date = issue["updated_at"].split("T", maxsplit=1)[0]
         course_id, course_name = title.split()[:2]
         date_courses.setdefault(date, []).append("[{} {}]({})".format(
             course_id, course_name, course2file[course_id]))

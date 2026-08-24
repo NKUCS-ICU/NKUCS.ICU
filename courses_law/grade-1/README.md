@@ -4,9 +4,11 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
+<!-- course-list:start -->
 - [COMP0018 中国法制史](/courses_law/grade-1/COMP0018)
 - [COMP0026 法理学](/courses_law/grade-1/COMP0026)
 - [COMP0027 宪法学](/courses_law/grade-1/COMP0027)
 - [COMP0052 法律方法](/courses_law/grade-1/COMP0052)
 - [COMP0095 民法学（总论）](/courses_law/grade-1/COMP0095)
 - [COMP0108 刑法总论](/courses_law/grade-1/COMP0108)
+<!-- course-list:end -->

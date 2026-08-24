@@ -1,3 +1,4 @@
+<!-- course-list:start -->
 - [COMP0150 Verilog程序设计](/courses/grade-2/COMP0150)
 - [COSC0006 数字逻辑](/courses/grade-2/COSC0006)
 - [COSC0007 数据结构](/courses/grade-2/COSC0007)
@@ -33,3 +34,4 @@
 - [LAWS0120 法学概论](/courses/grade-2/LAWS0120)
 - [LITE0244 大学语文](/courses/grade-2/LITE0244)
 - [PHIL0141 哲学导论](/courses/grade-2/PHIL0141)
+<!-- course-list:end -->

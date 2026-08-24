@@ -4,6 +4,7 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
+<!-- course-list:start -->
 - [COMP0024 外国宪法](/courses_law/grade-2/COMP0024)
 - [COMP0029 犯罪心理学](/courses_law/grade-2/COMP0029)
 - [COMP0096 民法学（物权法）](/courses_law/grade-2/COMP0096)
@@ -13,3 +14,4 @@
 - [COMP0112 民事诉讼法](/courses_law/grade-2/COMP0112)
 - [COMP0156 外国法律制度史](/courses_law/grade-2/COMP0156)
 - [CSSE0025 中国法律思想史](/courses_law/grade-2/CSSE0025)
+<!-- course-list:end -->

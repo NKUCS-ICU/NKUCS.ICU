@@ -6,12 +6,26 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
+  site-validation:
+    name: Validate site structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check navigation, generated lists, local links, and secrets
+        run: python scripts/site_tools.py check
+
   markdown-lint:
     name: Markdown Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Lint Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v18
         with:
@@ -22,9 +36,10 @@ jobs:
     name: Check Dead Links
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress '**/*.md'
-          fail: false
+          args: --root-dir . --verbose --no-progress --max-retries 2 --max-concurrency 8 --exclude-mail '**/*.md'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail: true

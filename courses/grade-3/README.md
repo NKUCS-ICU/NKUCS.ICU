@@ -1,3 +1,4 @@
+<!-- course-list:start -->
 - [COMP0073 信息隐藏技术](/courses/grade-3/COMP0073)
 - [COMP0074 信息对抗技术](/courses/grade-3/COMP0074)
 - [COSC0001 自然语言处理](/courses/grade-3/COSC0001)
@@ -45,3 +46,4 @@
 - [CSSE0053 数据安全](/courses/grade-3/CSSE0053)
 - [CSSE0054 可证明安全](/courses/grade-3/CSSE0054)
 - [IPTD0018 习近平新时代中国特色社会主义思想概论](/courses/grade-3/IPTD0018)
+<!-- course-list:end -->

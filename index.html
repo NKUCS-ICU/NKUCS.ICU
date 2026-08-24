@@ -12,12 +12,10 @@
   <meta property="og:description" content="由南开大学计算机/网安学院学生自发建立的课程信息与经验分享网站，减少信息差，助力高效学习。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nkucs.icu">
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="canonical" href="https://nkucs.icu/">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <!-- Docsify theme (locked version) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
-  <!-- Gitalk CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <!-- Back to top button style -->
   <style>
     #back-to-top {
@@ -42,10 +40,20 @@
     #back-to-top:hover {
       opacity: 0.8;
     }
+    .utterances {
+      max-width: 100%;
+      margin-top: 2rem;
+    }
+    .comments-fallback {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
   <div id="app"></div>
+  <noscript>本站需要启用 JavaScript 才能加载课程内容。</noscript>
   <!-- Back to top button -->
   <button id="back-to-top" title="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
   <script>
@@ -86,14 +94,37 @@
         language: 'chinese'
       },
       plugins: [
-        // Remove URL parameters before loading Gitalk
-        // as Gitalk uses location.href as id
+        // Render comments without exposing an OAuth client secret in the browser.
         function(hook, vm) {
-          hook.beforeEach(function(html) {
-            var splited = location.href.split('?')
-            if (splited.length >= 2 && !splited[1].startsWith("code=")) {
-              location.href = location.href.split('?')[0]
-            }
+          hook.doneEach(function() {
+            var article = document.querySelector('.markdown-section');
+            if (!article) return;
+
+            var oldComments = document.getElementById('comments');
+            if (oldComments) oldComments.remove();
+
+            var comments = document.createElement('div');
+            comments.id = 'comments';
+            article.appendChild(comments);
+
+            var fallback = document.createElement('p');
+            fallback.className = 'comments-fallback';
+            var fallbackLink = document.createElement('a');
+            fallbackLink.href = 'https://github.com/NKUCS-ICU/NKUCS.ICU/issues';
+            fallbackLink.target = '_blank';
+            fallbackLink.rel = 'noopener noreferrer';
+            fallbackLink.textContent = '评论未加载？前往 GitHub Issues 参与讨论';
+            fallback.appendChild(fallbackLink);
+            comments.appendChild(fallback);
+
+            var utterances = document.createElement('script');
+            utterances.src = 'https://utteranc.es/client.js';
+            utterances.async = true;
+            utterances.crossOrigin = 'anonymous';
+            utterances.setAttribute('repo', 'NKUCS-ICU/NKUCS.ICU');
+            utterances.setAttribute('issue-term', 'title');
+            utterances.setAttribute('theme', 'github-light');
+            comments.appendChild(utterances);
           });
         }
       ],
@@ -117,19 +148,6 @@
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <!-- Search (locked version) -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/search.min.js"></script>
-  <!-- Gitalk -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: '85f33f9d7cc7463e63b5',
-      clientSecret: '06366ea6fb876fa2e9fd209b9e04f532040ceade',
-      repo: 'NKUCS.ICU',
-      owner: 'emanual20',
-      admin: ['emanual20', 'Rainefly', 'VitalC-3026','aokimi0'],
-      distractionFreeMode: false
-    })
-  </script>
   <!-- Pangu (locked version) -->
   <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
   <script>
@@ -154,7 +172,6 @@
   <!-- Site running time (fixed: JS months are 0-indexed, Dec=11) -->
   <script>
     function siteTime() {
-      window.setTimeout(siteTime, 1000);
       var seconds = 1000;
       var minutes = seconds * 60;
       var hours = minutes * 60;
@@ -162,7 +179,7 @@
       var years = days * 365;
       var today = new Date();
       var todayYear = today.getFullYear();
-      var todayMonth = today.getMonth() + 1;
+      var todayMonth = today.getMonth();
       var todayDate = today.getDate();
       var todayHour = today.getHours();
       var todayMinute = today.getMinutes();
@@ -175,7 +192,11 @@
       var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
       var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
       var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-      document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+      var siteTimeElement = document.getElementById("sitetime");
+      if (siteTimeElement) {
+        siteTimeElement.textContent = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+      }
+      window.setTimeout(siteTime, 1000);
     }
     siteTime();
   </script>

@@ -18,7 +18,7 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Emanual20/NKUCS.ICU&type=Timeline)](https://star-history.com/#Emanual20/NKUCS.ICU&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=NKUCS-ICU/NKUCS.ICU&type=Timeline)](https://star-history.com/#NKUCS-ICU/NKUCS.ICU&Timeline)
 
 ## 本站存在的目的是？
 
@@ -41,6 +41,17 @@
 - 最简单的方式，是在本站每个页面下方的评论区，留下你所愿意提供的信息与评价，网站维护者会在第一时间看到，且会酌情将其添加为对应页面的内容。**评论区需要使用Github授权登陆，有时Github可能会无法登录，这时需要"其他方式"或稍等一段时间后才能访问。**
 
 - 更加直接的方式，是点击本站右上角的章鱼图标，进入本站的 [Github 仓库](https://github.com/NKUCS-ICU/NKUCS.ICU)，以 Pull Request 的方式，提交你对本站内容的改进。
+
+### 网站内容维护
+
+根目录的 `_sidebar.md` 是课程导航的唯一数据源。修改课程列表后，请依次运行：
+
+```bash
+python scripts/site_tools.py sync
+python scripts/site_tools.py check
+```
+
+第一条命令会同步本科、研究生和法学课程目录中的 `README.md`；第二条命令会检查导航、课程页面、本地链接和敏感配置。需要根据导航批量创建缺失课程页面时，可运行 `python scripts/site_tools.py init`。
 
     如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，**长期招募**。
 

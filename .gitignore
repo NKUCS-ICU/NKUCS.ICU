@@ -35,8 +35,9 @@
 .idea/*
 .vscode/*
 
-# Utils
-utils/__pycache__/*
+# Python
+__pycache__/
+*.py[cod]
 
 # OS generated files
 desktop.ini

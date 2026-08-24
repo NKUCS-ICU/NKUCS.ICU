@@ -4,6 +4,7 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
+<!-- course-list:start -->
 - [03511703 计算机科学专题研究报告](/courses_maphd/1/xITo)
 - [03511705 计算机科学前沿讨论班(2)](/courses_maphd/1/zITo)
 - [03511713 信息科学中的数学方法](/courses_maphd/1/HITo)
@@ -61,3 +62,4 @@
 - [90031201 新时代中国特色社会主义理论与实践](/courses_maphd/1/joVfg)
 - [90031203 自然辩证法概论](/courses_maphd/1/loVfg)
 - [90031204 中国马克思主义与当代](/courses_maphd/1/moVfg)
+<!-- course-list:end -->

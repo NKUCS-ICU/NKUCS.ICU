@@ -4,6 +4,7 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体课程的信息：
 
+<!-- course-list:start -->
 - [COMP0004 国际金融法](/courses_law/grade-3/COMP0004)
 - [COMP0007 国际刑法](/courses_law/grade-3/COMP0007)
 - [COMP0017 国际私法](/courses_law/grade-3/COMP0017)
@@ -22,3 +23,4 @@
 - [COMP0141 破产法](/courses_law/grade-3/COMP0141)
 - [CSSE0023 证据学](/courses_law/grade-3/CSSE0023)
 - [ECON0211 财税法](/courses_law/grade-3/ECON0211)
+<!-- course-list:end -->

@@ -1,3 +1,4 @@
+<!-- course-list:start -->
 - [AMTD0033 高等数学(A类)I/II](/courses/grade-1/AMTD0033)
 - [COSC0002 高级语言程序设计2-1/2-2](/courses/grade-1/COSC0002)
 - [COSC0003 线性代数](/courses/grade-1/COSC0003)
@@ -17,3 +18,4 @@
 - [MITD0005 军事技能训练](/courses/grade-1/MITD0005)
 - [SOFT0186 专业认知导引](/courses/grade-1/SOFT0186)
 - [UPRC0001 新生研讨课](/courses/grade-1/UPRC0001)
+<!-- course-list:end -->
