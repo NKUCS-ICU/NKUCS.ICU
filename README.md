@@ -5,8 +5,8 @@
 > **1. 长期招募网站维护者，要求为计网学生或毕业生。有任何想法、及需要贡献素材等均可联系[网站管理员邮箱](mailto:emanual20@foxmail.com)详谈。**
 >
 > **2. 因ICU涉及域名续费等开销，根据[意见征集issue](https://github.com/NKUCS-ICU/NKUCS.ICU/issues/323) 的结果，[长期赞助通道](https://github.com/NKUCS-ICU/NKUCS.ICU/issues/324)已开启。赞助金额专用于续费域名开支，超出续费域名开支部分的赞助金额以ICU团队名义直接捐赠腾讯公益。**
-> 
-> <img src="https://github.com/user-attachments/assets/5131e8c9-8689-4e03-b744-0816a4bff5bd" width="150" />
+>
+> <img src="https://github.com/user-attachments/assets/5131e8c9-8689-4e03-b744-0816a4bff5bd" alt="赞助二维码" width="150" />
 >
 > 希望朋友们都不要进ICU。
 
@@ -53,11 +53,11 @@ python scripts/site_tools.py check
 
 第一条命令会同步本科、研究生和法学课程目录中的 `README.md`；第二条命令会检查导航、课程页面、本地链接和敏感配置。需要根据导航批量创建缺失课程页面时，可运行 `python scripts/site_tools.py init`。
 
-    如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，**长期招募**。
+如果你能够长期参与本站的建设，可以联系以下任意一位现任长聘维护人员，成为本站的维护人员，**长期招募**。
 
-    现任维护人员 [@emanual20](https://github.com/emanual20/)，[@VitalC-3026](https://github.com/VitalC-3026/)，[@Rainefly](https://github.com/Rainefly)，[@aokimi0](https://github.com/aokimi0)。
+现任维护人员 [@emanual20](https://github.com/emanual20/)，[@VitalC-3026](https://github.com/VitalC-3026/)，[@Rainefly](https://github.com/Rainefly)，[@aokimi0](https://github.com/aokimi0)。
 
-    我们欢迎一切形式、不论大小的贡献！🔥
+我们欢迎一切形式、不论大小的贡献！🔥
 
 ## 如何使用本站？
 

@@ -174,10 +174,21 @@ def validate() -> list[str]:
     content_files = sorted(ROOT.rglob("*.md")) + [ROOT / "index.html"]
     for source in content_files:
         text = source.read_text(encoding="utf-8")
-        patterns = [MARKDOWN_TARGET_RE] if source.suffix == ".md" else [HTML_TARGET_RE]
+        patterns = (
+            [MARKDOWN_TARGET_RE, HTML_TARGET_RE]
+            if source.suffix == ".md"
+            else [HTML_TARGET_RE]
+        )
         for pattern in patterns:
             for match in pattern.finditer(text):
                 target = match.group("target").strip("<>")
+                if "\\" in target:
+                    line = text.count("\n", 0, match.start()) + 1
+                    errors.append(
+                        f"{source.relative_to(ROOT)}:{line}: local links must use /, not \\: "
+                        f"{target}"
+                    )
+                    continue
                 if not resolve_local_target(source, target):
                     line = text.count("\n", 0, match.start()) + 1
                     errors.append(

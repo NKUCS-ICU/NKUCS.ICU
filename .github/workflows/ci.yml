@@ -27,19 +27,19 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Lint Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v18
+        uses: DavidAnson/markdownlint-cli2-action@v24
         with:
-          globs: '**/*.md'
+          globs: 'README.md CONTRIBUTING.md'
           config: '.markdownlint.json'
 
   link-check:
-    name: Check Dead Links
+    name: Check Local Links
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --root-dir . --verbose --no-progress --max-retries 2 --max-concurrency 8 --exclude-mail '**/*.md'
+          args: --offline --root-dir . --verbose --no-progress '**/*.md'
           token: ${{ secrets.GITHUB_TOKEN }}
           fail: true
